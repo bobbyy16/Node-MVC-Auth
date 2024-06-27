@@ -88,7 +88,7 @@ JWT_SECRET=<your-secret-key>
     npm start
 ```
 
-    The server will start at http://localhost:8080/.
+  The server will start at http://localhost:8080/.
 
 ## Running Tests
 
