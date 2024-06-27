@@ -1,11 +1,17 @@
 const express = require("express");
 const cors = require("cors");
+const connectDB = require("./DB/db");
 const app = express();
 require("dotenv").config();
 
+// middlewares
 app.use(cors());
 app.use(express.json());
 
+// db connection
+connectDB();
+
+// routes
 app.get("/", (req, res) => {
   res.send(`
           <html>
