@@ -24,6 +24,10 @@ app.get("/", (req, res) => {
         `);
 });
 
+const userRoutes = require("./routes/user.routes.js");
+
+app.use("/api", userRoutes);
+
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
