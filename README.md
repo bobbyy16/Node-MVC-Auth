@@ -58,8 +58,8 @@ The project follows the MVC (Model-View-Controller) architecture:
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/bobbyy16/worko-assessment
+   cd worko-assessment
    ```
 
 2. **Install dependencies:**
@@ -70,20 +70,47 @@ The project follows the MVC (Model-View-Controller) architecture:
 
 3. **Set up environment variables:**
 
-- Create a .env file in the root directory and define the following variables:
+   Create a .env file in the root directory and define the following variables:
 
-  ```bash
-  PORT=8080
-  MONGODB_URI=<your-mongodb-connection-string>
-  JWT_SECRET=<your-secret-key>
-  ```
+```bash
+PORT=8080
+MONGODB_URI=<your-mongodb-connection-string>
+JWT_SECRET=<your-secret-key>
+```
 
 4. **Database Setup:**
 
-Ensure MongoDB is running and accessible with the provided connection string (MONGODB_URI).
+   Ensure MongoDB is running and accessible with the provided connection string (MONGODB_URI).
 
 5. **Running the APP:**
 
 ```bash
     npm start
 ```
+
+    The server will start at http://localhost:8080/.
+
+## Running Tests
+
+**To run unit tests using Jest:**
+
+```bash
+npm test
+```
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Clone your forked repository (`git clone <forked-repo-url>`).
+3. Create a new branch (`git checkout -b feature/my-feature`).
+4. Make your changes and commit them (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature/my-feature`).
+6. Create a new Pull Request.
+
+Thank you for contributing!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
