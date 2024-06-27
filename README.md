@@ -82,7 +82,7 @@ JWT_SECRET=<your-secret-key>
 
    Ensure MongoDB is running and accessible with the provided connection string (MONGODB_URI).
 
-5. **Running the Application:**
+## Running the Application:
 
 ```bash
     npm start
